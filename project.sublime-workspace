@@ -1,0 +1,873 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"userData"
+			],
+			[
+				"u",
+				"userData"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"db",
+				"dbpassword"
+			],
+			[
+				"count",
+				"countdowny"
+			],
+			[
+				"countd",
+				"countdown"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"leaderboard",
+				"Leaderboard"
+			],
+			[
+				"best",
+				"bestscore"
+			],
+			[
+				"other",
+				"other3"
+			],
+			[
+				"questio",
+				"question"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array"
+			],
+			[
+				"nu",
+				"numberarray"
+			],
+			[
+				"use",
+				"userData"
+			],
+			[
+				"rss",
+				"rssfeed"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"Se",
+				"sans-serif"
+			],
+			[
+				"text",
+				"textboxy"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"cale",
+				"Calendar"
+			],
+			[
+				"If",
+				"IFRAME	Tag"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"borden",
+				"bordengrammar"
+			],
+			[
+				"bor",
+				"bordengrammarapp"
+			],
+			[
+				"bordengr",
+				"bordengrammarapp"
+			],
+			[
+				"bo",
+				"bordengrammarapp"
+			],
+			[
+				"borde",
+				"bordengrammar"
+			],
+			[
+				"SAN",
+				"SANS_BOLD"
+			],
+			[
+				"SANS",
+				"SANS_SEMIBOLD"
+			],
+			[
+				"SA",
+				"SANS_LIGHT"
+			],
+			[
+				"input",
+				"inputreverse"
+			],
+			[
+				"in",
+				"inputy"
+			],
+			[
+				"inp",
+				"inputy"
+			],
+			[
+				"Bor",
+				"Borden"
+			],
+			[
+				"w",
+				"will"
+			],
+			[
+				"ite",
+				"Item"
+			],
+			[
+				"T",
+				"TAG"
+			],
+			[
+				"A",
+				"MainActivity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".htaccess",
+			"settings":
+			{
+				"buffer_size": 6206,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "adminlogin.html",
+			"settings":
+			{
+				"buffer_size": 2517,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "adminpanel.php",
+			"settings":
+			{
+				"buffer_size": 5714,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.php",
+			"settings":
+			{
+				"buffer_size": 25804,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n	<head>\n		<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n		<meta charset=\"utf-8\">\n		<title>Login</title>\n		<meta name=\"generator\" content=\"Bootply\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n		<link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n		<!--[if lt IE 9]>\n			<script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n		<![endif]-->\n		<style type=\"text/css\">\n    body {\n  padding-top: 40px;\n  padding-bottom: 40px;\n  background-color: #eee;\n}\n\n.form-signin {\n  max-width: 330px;\n  padding: 15px;\n  margin: 0 auto;\n}\n.form-signin .form-signin-heading,\n.form-signin .checkbox {\n  margin-bottom: 10px;\n}\n.form-signin .checkbox {\n  font-weight: normal;\n}\n.form-signin .form-control {\n  position: relative;\n  height: auto;\n  -webkit-box-sizing: border-box;\n     -moz-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 10px;\n  font-size: 16px;\n}\n.form-signin .form-control:focus {\n  z-index: 2;\n}\n.form-signin input[type=\"user\"] {\n  margin-bottom: -1px;\n  border-bottom-right-radius: 0;\n  border-bottom-left-radius: 0;\n}\n.form-signin input[type=\"password\"] {\n  margin-bottom: 10px;\n  border-top-left-radius: 0;\n  border-top-right-radius: 0;\n}\nhtml {\n  position: relative;\n  min-height: 100%;\n}\nbody {\n  /* Margin bottom by footer height */\n  margin-bottom: 60px;\n}\n#footer {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  /* Set the fixed height of the footer here */\n  height: 60px;\n  background-color: #f5f5f5;\n}\n.container {\n  width: auto;\n  max-width: 680px;\n  padding: 0 15px;\n}\n.container .text-muted {\n  margin: 20px 0;\n}\n\n    </style>\n	</head>\n	<body>\n<!--login modal-->\n<form  method=\"post\" action=\"main.php\" class=\"form-signin\" role=\"form\" id=\"form\" name=\"form1\">\n        <h2 class=\"form-signin-heading\">Please login</h2>\n        <input type=\"user\" id=\"user\" name=\"user\" class=\"form-control\" placeholder=\"Username\" required autofocus>\n        <input type=\"password\" id=\"password\" name=\"password\" class=\"form-control\" placeholder=\"Password\" required>\n        <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>\n        \n\n</form>\n<p style=\"\n    max-width: 330px;\n    padding: 15px;  margin: 0 auto;\n    font-family: sans-serif;\n\">Account created, you may now sign in</p>\n<div id=\"footer\">\n  <div class=\"container\">\n    <p class=\"text-muted\"><a href=\"adminlogin.html\">Admin Login</a></p>\n  </div>\n</div>\n\n\n	<!-- script references -->\n		<script src=\"//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js\"></script>\n		<script src=\"js/bootstrap.min.js\"></script>\n	</body>\n</html>",
+			"file": "index1.html",
+			"file_size": 2779,
+			"file_write_time": 130489647957068837,
+			"settings":
+			{
+				"buffer_size": 2656,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leaderboard.php",
+			"settings":
+			{
+				"buffer_size": 5737,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<HTML>\n<HEAD>\n    <TITLE>New Score</TITLE>\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n    <style type=\"text/css\">\n    body{\n        padding: 20px;\n    }\n    </style>\n<?php\n	$username = $_POST[\"user\"];\n    $password = $_POST[\"password\"];\n    $score = $_POST['score'];\n	$conn = mysqli_connect('localhost', 'root', '', 'quiz');      \n    $query = \"SELECT *\n              FROM login\n              WHERE user = '$username';\"; \n    $result = mysqli_query($conn, $query);    \n        if(mysqli_num_rows($result) == 0) // User not found. So, redirect to login_form again.\n        {\n          header('Location: index.html'); \n        } \n        $userData = mysqli_fetch_array($result, MYSQL_ASSOC); \n        if($password != $userData['password']) // Incorrect password. So, redirect to login_form again.\n        {\n          header('Location: index.html');\n        }else{\n        	$score = $_POST['score'];\n            $\n        	$query = \"UPDATE login SET bestscore='$score' WHERE user='$username';\";\n            $result = mysqli_query($conn, $query);\n            echo(\"<title>Success</title>\");\n            echo(\"<p>Successfully added your score to leaderboard</p>\");\n            echo('<form method=\"post\" action=\"leaderboard.php\">');\n            echo('<input type=\"hidden\" name=\"user\" value=\"');\n            echo($username);\n            echo('\">');\n            echo('<input type=\"hidden\" name=\"password\" value=\"');\n            echo($password);\n            echo('\">');            \n            echo('<button type=\"submit\" class=\"btn btn-success\" id=\"submit\">Go to leaderboard</button>');\n            echo('</form>');\n               \n            \n\n\n\n            \n\n\n\n\n\n        }\n\n\n?>",
+			"file": "newscore.php",
+			"file_size": 1809,
+			"file_write_time": 130481090222016271,
+			"settings":
+			{
+				"buffer_size": 1686,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "newuser.php",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"Finley Smith - finleys.tk\">\n    <link rel=\"shortcut icon\" href=\"favicon.ico\">\n\n    <title>Quiz Results</title>\n\n    <!-- Bootstrap core CSS -->\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom styles for this template -->\n    <style type=\"text/css\">\n    body\n    {\n      min-height: 2000px;\n      padding-top: 70px;\n    }\n    #quiz {\n        padding-top: 100px;  padding-bottom: 15px;    \n        color: #777;\n        margin-top: 5px;\n        line-height: 20px;\n        position: relative;  display: block;  \n        padding: 10px 15px;\n        text-align: -webkit-match-parent;\n    }\n    </style>\n\n    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n      <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n  </head>\n\n  <body>\n    <?php\n    //$username = $_POST[\"user\"];\n    //$password = $_POST[\"password\"];\n    //echo('<form action=\"main.php\" id=\"frm\" method=\"post\" style=\"display: none;\">');\n    //echo('<input type=\"text\" name=\"password\" value=\"' . $password .'\" />');\n    //echo('<input type=\"text\" name=\"user\" value=\"'. $username . '/>');\n    //echo('</form>');    \n    \n    ?>\n\n    <!-- Fixed navbar -->\n    <div class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">Quiz</a>\n        </div>\n        <div class=\"navbar-collapse collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li>\n            <?php \n            $username = $_POST[\"user\"];\n            $password = $_POST[\"password\"]; \n            echo('<form method=\"post\" action=\"main.php\">');\n            echo('<input type=\"hidden\" name=\"user\" value=\"');\n            echo($username);\n            echo('\">');\n            echo('<input type=\"hidden\" name=\"password\" value=\"');\n            echo($password);\n            echo('\">');\n            echo('<button type=\"submit\" class=\"btn btn-link\" id=\"quiz\">Quiz</button>');\n            echo('</form>');\n            ?></li>\n            <li><?php \n            $username = $_POST[\"user\"];\n            $password = $_POST[\"password\"]; \n            echo('<form method=\"post\" action=\"leaderboard.php\">');\n            echo('<input type=\"hidden\" name=\"user\" value=\"');\n            echo($username);\n            echo('\">');\n            echo('<input type=\"hidden\" name=\"password\" value=\"');\n            echo($password);\n            echo('\">');\n            echo('<button type=\"submit\" class=\"btn btn-link\" id=\"quiz\">Leaderboard</button>');\n            echo('</form>');\n            ?></li>          \n          </ul>                   \n        </div><!--/.nav-collapse -->\n      </div>\n    </div>\n    \n\n    <div class=\"container\">\n\n      <!-- Main component for a primary marketing message or call to action -->\n      <div class=\"jumbotron\">\n        <h1>Results</h1>        \n        <?php\n        error_reporting (E_ALL ^ E_NOTICE);\n        $username = $_POST[\"user\"];\n        $password = $_POST[\"password\"];\n        $timer = $_POST['timer'];     \n        $conn = mysqli_connect('localhost', 'root', '', 'quiz');         \n        $query = \"SELECT password\n                  FROM login\n                  WHERE user = '$username';\"; \n        $result = mysqli_query($conn, $query); \n        if(mysqli_num_rows($result) == 0) // User not found. So, redirect to login_form again.\n        {\n          header('Location: index.html'); \n        } \n        $userData = mysqli_fetch_array($result, MYSQL_ASSOC); \n        if($password != $userData['password']) // Incorrect password. So, redirect to login_form again.\n        {\n          header('Location: index.html');\n        }else{            \n            $outof = 0;\n            $correct = 0;\n            //$a1 = $_POST['1'];\n            //$a2 = $_POST['2'];\n            //$a3 = $_POST['3'];\n            //$a4 = $_POST['4'];\n            //$a5 = $_POST['5'];\n            //$a6 = $_POST['6'];\n            //$a7 = $_POST['7'];\n            //$a8 = $_POST['8'];\n            //$a9 = $_POST['9'];\n            //$a10 = $_POST['10'];\n            //$a11 = $_POST['11'];\n            //$a12 = $_POST['12'];\n            //$a13 = $_POST['13'];\n            //$a14 = $_POST['14'];\n            //$a15 = $_POST['15'];\n            //$a16 = $_POST['16'];\n            //$a17 = $_POST['17'];\n            //$a18 = $_POST['18'];\n            //$a19 = $_POST['19'];\n            if(isset($_POST['1'])){\n                $a1 = $_POST['1'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['2'])){\n                $a2 = $_POST['2'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['3'])){\n                $a3 = $_POST['3'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['4'])){\n                $a4 = $_POST['4'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['5'])){\n                $a5 = $_POST['5'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['6'])){\n                $a6 = $_POST['6'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['7'])){\n                $a7 = $_POST['7'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['8'])){\n                $a8 = $_POST['8'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['9'])){\n                $a9 = $_POST['9'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['10'])){\n                $a10 = $_POST['10'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['11'])){\n                $a11 = $_POST['11'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['12'])){\n                $a12 = $_POST['12'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['13'])){\n                $a13 = $_POST['13'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['14'])){\n                $a14 = $_POST['14'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['15'])){\n                $a15 = $_POST['15'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['16'])){\n                $a16 = $_POST['16'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['17'])){\n                $a17 = $_POST['17'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['18'])){\n                $a18 = $_POST['18'];\n                $outof = $outof + 1;\n            }\n            if(isset($_POST['19'])){\n                $a19 = $_POST['19'];\n                $outof = $outof + 1;\n            }            \n            if($a1 == 1){\n                $correct = $correct + 1;\n            }\n            if($a2 == 1){\n                $correct = $correct + 1;\n            }\n            if($a3 == 1){\n                $correct = $correct + 1;\n            }\n            if($a4 == 1){\n                $correct = $correct + 1;\n            }\n            if($a5 == 1){\n                $correct = $correct + 1;\n            }\n            if($a6 == 1){\n                $correct = $correct + 1;\n            }\n            if($a7 == 1){\n                $correct = $correct + 1;\n            }\n            if($a8 == 1){\n                $correct = $correct + 1;\n            }\n            if($a9 == 1){\n                $correct = $correct + 1;\n            }\n            if($a10 == 1){\n                $correct = $correct + 1;\n            }\n            if($a11 == 1){\n                $correct = $correct + 1;\n            }\n            if($a11 == 1){\n                $correct = $correct + 1;\n            }\n            if($a12 == 1){\n                $correct = $correct + 1;\n            }\n            if($a13 == 1){\n                $correct = $correct + 1;\n            }\n            if($a14 == 1){\n                $correct = $correct + 1;\n            }\n            if($a15 == 1){\n                $correct = $correct + 1;\n            }\n            if($a16 == 1){\n                $correct = $correct + 1;\n            }\n            if($a17 == 1){\n                $correct = $correct + 1;\n            }\n            if($a18 == 1){\n                $correct = $correct + 1;\n            }\n            if($a19 == 1){\n                $correct = $correct + 1;\n            }\n            if($timer == 0){\n                echo('<p>You got ' . $correct . \" out of \" . $outof . \"</p>\");\n            } else{\n                echo('<p>You got ' . $correct . \" out of \" . $outof .  \" with a time bonus of \" . $timer . \"</p>\" );\n            }\n            \n            $score = $correct * 10;\n            $score = $score + $timer;\n            echo(\"<p>That is a score of: \" . $score . '</p>');\n            $query = \"SELECT bestscore\n                  FROM login\n                  WHERE user = '$username';\"; \n            $result = mysqli_query($conn, $query);\n            $userData = mysqli_fetch_array($result, MYSQL_ASSOC);\n            $best = $userData['bestscore'];\n            $plays = $userData['plays'] + 1;\n            $totalscore = $userData['totalscore'] + $score;  \n\n\n            if($best < $score){\n            echo('<p>New high score! Do you want to add this to the Leaderboard?</p>');\n            echo('<form method=\"post\" action=\"newscore.php\">');\n            echo('<input type=\"hidden\" name=\"user\" value=\"');\n            echo($username);\n            echo('\">');\n            echo('<input type=\"hidden\" name=\"password\" value=\"');\n            echo($password);\n            echo('\">');\n            echo('<input type=\"hidden\" name=\"score\" value=\"' . $score . '\">');\n            echo('<button type=\"submit\" class=\"btn btn-success\" id=\"submit\">Submit</button>');\n            echo('</form>');\n            }else{\n                echo('<p>You did not beat your highscore of ' . $best . '</p>');\n            }   \n\n\n\n\n\n        }\n\n\n\n\n\n\n\n        ?>        \n      </div>\n      \n\n    </div> <!-- /container -->\n\n\n    <!-- Bootstrap core JavaScript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <script src=\"//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js\"></script>\n    <script src=\"js/bootstrap.min.js\"></script>\n    \n  </body>\n</html>",
+			"file": "result.php",
+			"file_size": 11283,
+			"file_write_time": 130480095043014014,
+			"settings":
+			{
+				"buffer_size": 11052,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/eula.3082.txt",
+			"settings":
+			{
+				"buffer_size": 8755,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2770,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"SSH",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Finley/Documents/routerpassword.txt",
+		"/A/jakewright.txt",
+		"/A/Quiz/config.ini",
+		"/A/Quiz/favicon.ico",
+		"/A/Quiz/favicon.png",
+		"/C/Users/Finley/Documents/Quiz/index.html",
+		"/A/Quiz/index.html",
+		"/A/Quiz/.htaccess",
+		"/A/Quiz/js/scripts.js",
+		"/A/Quiz/newscore.php",
+		"/A/Quiz/leaderboard.php",
+		"/A/Quiz/result.php",
+		"/A/Quiz/main.php",
+		"/C/Users/Finley/Documents/Quiz/result.php",
+		"/C/Users/Finley/Documents/Quiz/newuser.php",
+		"/A/Quiz/adminpanel.php",
+		"/A/Quiz/adminlogin.html",
+		"/C/Users/Finley/Documents/Quiz/newscore.php",
+		"/A/Quiz/newuser.php",
+		"/C/Users/Finley/Documents/Quiz/main.php",
+		"/C/Users/Finley/Documents/Quiz/leaderboard.php",
+		"/C/Users/Finley/Documents/Quiz/adminpanel.php",
+		"/C/Users/Finley/Documents/Online News Provider/config.ini",
+		"/C/Users/Finley/Documents/Online News Provider/index.html",
+		"/A/botheed.txt",
+		"/C/Program Files (x86)/Origin Games/Battlefield 3/Support/readme/readme.txt",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_Truepixel (RockingTemplates.com) (1).zip/Truepixel (RockingTemplates.com)/Truepixel (RockingTemplates.com).xml",
+		"/C/Users/Finley/Downloads/cmatrix-1.2a (1).tar/cmatrix-1.2a (1)/cmatrix-1.2a/cmatrix.c",
+		"/C/Users/Finley/Documents/Online News Provider/rss/index.php",
+		"/A/My Portfolio/README.txt",
+		"/C/Users/Finley/Documents/Online News Provider/submit.php",
+		"/C/Users/Finley/Documents/Online News Provider/json/index.php",
+		"/C/Users/Finley/Documents/Online News Provider/json/XmlToJson.php",
+		"/C/Users/Finley/Documents/Torrents/[ www.TorrentDay.com ] - Our.Queen.480p.HDTV.x264-mSD/First Read This Guide.txt",
+		"/C/Users/Finley/Documents/Online News Provider/help/index.html",
+		"/C/Users/Finley/Documents/Online News Provider/css/css.css",
+		"/C/Users/Finley/Documents/Online News Provider/get/index.php",
+		"/C/Users/Finley/Documents/OS X 10.9/config.ini",
+		"/C/Users/Finley/Documents/Torrents/ksp-win-0-23-5/KSP_win/readme.txt",
+		"/C/Users/Finley/Documents/Online News Provider/README.MD",
+		"/C/Users/Finley/Documents/Online News Provider/feed/index.php",
+		"/C/Users/Finley/Documents/Online News Provider/.htaccess",
+		"/A/101004.html",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/res/xml/widgetproviderinfo.xml",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/src/oreillymedia/cookbook/android/spikes/CurrentMoodWidgetProvider.java",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/src/oreillymedia/cookbook/android/spikes/CurrentMoodService.java",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/AndroidManifest.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/strings.xml",
+		"/C/Users/Finley/Documents/ecal/ExtendedCalendarView/ExtendedCalendarView/res/values/strings.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/Event.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/ExtendedCalendarView.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/CalendarProvider.java",
+		"/C/Users/Finley/.VirtualBox/VirtualBox.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/README.md",
+		"/F/README_Spanish.html",
+		"/A/website-bootstrap/deploy/jquery.parallax.js",
+		"/A/website-bootstrap/assets/scripts/js/libraries.min.js",
+		"/A/website-bootstrap/fancy.html",
+		"/A/website-bootstrap/index.html",
+		"/A/website-bootstrap/assets/styles/css/styles.css",
+		"/A/website-bootstrap/css/css.css",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/CalendarAdapter.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/Day.java",
+		"/C/Users/Finley/Documents/ecal/ExtendedCalendarView/ExtendedCalendarView/res/values/styles.xml",
+		"/S/web]/index.html",
+		"/A/My website/assets/Preview 7.html",
+		"/C/Program Files (x86)/Windows MultiPoint Mouse SDK/Samples/TicTacToe/App.xaml.cs",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/drawable/main_selector.xml",
+		"/A/My website/assets/boilerplate.css",
+		"/A/My website/assets/css.css",
+		"/C/Users/Finley/AppData/Local/Temp/7zO4AA9.tmp/KILLME.CPP",
+		"/C/Users/Finley/AppData/Local/Temp/7zOF0A1.tmp/GOOF.C",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/drawable/tab_indicator_ab_example.xml",
+		"/C/Users/Finley/AppData/Local/Temp/7zOA8C8.tmp/SONGYACC.C",
+		"/C/Users/Finley/.gradle/gradle.properties",
+		"/A/Desktop/Java Coding/Learning/Triangle area/src/area.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/attrs.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/drawable/triangle.xml",
+		"/A/Desktop/Java Coding/Learning/Learn Java/src/Test.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/attrs_fancy_text_view.xml",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_twitter4j-4.0.1.zip/lib/readme-libs.txt",
+		"/A/Desktop/FINLEY-LAPTOP.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/Team Fortress 2/tf/gameinfo.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/Application.java",
+		"/C/Users/Finley/AppData/Local/Android/android-studio/sdk/tools/adb_has_moved.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/GMapV2Direction.java",
+		"/F/Crack/Install.txt",
+		"/C/Users/Finley/Documents/Torrents/StartIsBackPlus_for_Windows_8.1_v1.5.1_Final_ML_-_SceneDL/StartIsBackPlus for Windows 8.1 v1.5.1 Final ML - SceneDL/Follow Me.txt",
+		"/C/Users/Finley/Documents/Torrents/StartIsBackPlus_for_Windows_8.1_v1.5.1_Final_ML_-_SceneDL/StartIsBackPlus for Windows 8.1 v1.5.1 Final ML - SceneDL/Medicine/Install Notes.txt",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_ShowcaseView-4.0.zip/ShowcaseView-4.0/README.md",
+		"/A/BGSApp115/AndroidManifest.xml",
+		"/A/App/java/lang/annotations.xml",
+		"/C/Users/Finley/Downloads/twitter4j-4.0.1/twitter4j-core/src/main/java/twitter4j/TwitterFactory.java",
+		"/C/Users/Finley/Downloads/twitter4j-4.0.1/twitter4j-examples/src/main/java/twitter4j/examples/user/ShowUser.java",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_twitter4j-4.0.1.zip/twitter4j-examples/src/main/java/twitter4j/examples/timeline/GetUserTimeline.java",
+		"/C/Program Files (x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg/config.cfg",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/splash.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/xml/pref_headers.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/xml/pref_general.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/xml/pref_about.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/SettingsActivity.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/AndroidManifest.xml",
+		"/C/Program Files (x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom/readme.txt",
+		"/C/Users/Finley/Documents/Pikyes.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/TODO.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/proguard-rules.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/strings_activity_settings.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/MainActivity.java",
+		"/A/ShowcaseView/sample/src/com/espian/showcaseview/sample/SampleActivity.java",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_Parse-Starter-Project-1.4.1.zip/ParseStarterProject/src/com/parse/starter/ParseApplication.java",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_FragmentBasics (1).zip/FragmentBasics/src/com/example/android/fragments/ArticleFragment.java",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_FragmentBasics (1).zip/FragmentBasics/src/com/example/android/fragments/HeadlinesFragment.java",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_FragmentBasics (1).zip/FragmentBasics/src/com/example/android/fragments/MainActivity.java",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_SU2KT_3_17+.zip/su2kt_Install.txt",
+		"/A/KSP with KMP/2014-03-14_172356/output_log.txt",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_FragmentBasics (1).zip/FragmentBasics/src/com/example/android/fragments/Ipsum.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/airshipconfig.properties",
+		"/C/Users/Finley/Downloads/Timetable/Timetable/src/com/timetable/app/InternalDB.java",
+		"/C/Users/Finley/Documents/Rainmeter/Skins/Torn paper/System/Sys.ini",
+		"/C/Users/Finley/Documents/Rainmeter/Skins/Torn paper/Weather/Weather.ini",
+		"/C/Users/Finley/Documents/Torrents/The Foundry NUKEX 8.0v1 (Win 64 bit) (crack XForce) [ChingLiu]/Crack/xf_foundry1.lic",
+		"/A/My Repo/sfdhg nghggh.txt",
+		"/A/My Repo/gfnfhgf.uy.txt",
+		"/A/My Repo/FOlder/fil.txt",
+		"/C/Users/Finley/Documents/Torrents/The Foundry NUKEX 8.0v1 (Win 64 bit) (crack XForce) [ChingLiu]/Crack/install-windows.txt",
+		"/C/Users/Finley/Documents/Visual Studio 2012/Projects/TestFormApp/TestFormApp/Form1.cs",
+		"/C/Users/Finley/Documents/Visual Studio 2012/Projects/ConsoleApplication2/ConsoleApplication2/LICENSE.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/README"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"newuser",
+			");\n",
+			"score",
+			"echo($id)",
+			"h2",
+			"h1",
+			"?>",
+			"\">\n",
+			"title",
+			"titl",
+			"h1",
+			"body",
+			"images",
+			"fov",
+			"funstuff"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"correct",
+			"//echo($id)",
+			"h4",
+			"h2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".htaccess",
+					"settings":
+					{
+						"buffer_size": 6206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "adminlogin.html",
+					"settings":
+					{
+						"buffer_size": 2517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "adminpanel.php",
+					"settings":
+					{
+						"buffer_size": 5714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.php",
+					"settings":
+					{
+						"buffer_size": 25804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5930,
+								5930
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3240.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index1.html",
+					"settings":
+					{
+						"buffer_size": 2656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2108,
+								2108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 74.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "leaderboard.php",
+					"settings":
+					{
+						"buffer_size": 5737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4021,
+								4563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2160.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "newscore.php",
+					"settings":
+					{
+						"buffer_size": 1686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "newuser.php",
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "result.php",
+					"settings":
+					{
+						"buffer_size": 11052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9894,
+								9894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4968.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/eula.3082.txt",
+					"settings":
+					{
+						"buffer_size": 8755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1351,
+								1351
+							],
+							[
+								1430,
+								1430
+							],
+							[
+								1512,
+								1512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1487.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								980,
+								980
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true
+}
