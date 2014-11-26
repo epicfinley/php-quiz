@@ -1,9 +1,19 @@
 <?php
 $username = $_POST["user"];
       $password = $_POST["password"];
-
+      $file = file('banned.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+      foreach ($file as $line)
+        {
+            //echo($username);
+            //echo($line);
+            //echo(',');
+            if ($username == $line) {
+                header('Location: http://i.imgur.com/LuPXZKX.png'); // or header('Location:') or something...
+            }
+        }
  
-      $conn = mysqli_connect('localhost', 'root', '', 'quiz');
+      $ini_array = parse_ini_file("config.ini");
+      $conn = mysqli_connect($ini_array['host'], $ini_array['username'], $ini_array['password'], 'quiz');
       
       
       

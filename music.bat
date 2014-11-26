@@ -1,1 +1,3 @@
-start D:\song.mp3
+@echo off
+echo Playing music...
+start D:\fancy.mp3

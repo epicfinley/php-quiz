@@ -1,7 +1,8 @@
 <?php
 $username = $_POST['user'];
 $password = $_POST['password'];
-$conn = mysqli_connect('localhost', 'root', '', 'quiz');
+$ini_array = parse_ini_file("config.ini");
+        $conn = mysqli_connect($ini_array['host'], $ini_array['username'], $ini_array['password'], 'quiz');
 $query = "SELECT password
                   FROM login
                   WHERE user = '$username';"; 
